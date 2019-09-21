@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lis",
+				"listAll"
+			],
+			[
+				"data",
+				"dataRecovery"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"to",
+				"toName"
+			],
+			[
+				"P",
+				"PASSWORD"
+			],
+			[
+				"U",
+				"USERNAME"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"mcr",
+				"mcrypt_encrypt"
+			],
+			[
+				"base64",
+				"base64_encode"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"id",
+				"iduser"
+			],
+			[
+				"Pa",
+				"PageAdmin"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"op",
+				"opts"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"def",
+				"defaults"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"SESSION",
+				"session_name"
+			],
+			[
+				"di",
+				"dirProx"
+			],
+			[
+				"li",
+				"listar"
+			],
+			[
+				"a",
+				"arq"
+			],
+			[
+				"ab",
+				"abrirDir"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"strto",
+				"strtolower"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vendor/hcodebr/php-classes/src/Model/Category.php",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/hcodebr/php-classes/src/Model/User.php",
+			"settings":
+			{
+				"buffer_size": 6696,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 3418,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
+			"settings":
+			{
+				"buffer_size": 755,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "define command{"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views"
+	],
+	"file_history":
+	[
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/index.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Category.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/db-ecommerce-2019.sql",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/httpd-vhosts.conf",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Mailer.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/login.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/forgot.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/res/admin/dist/css/AdminLTE.css",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Mailer.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-users.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-categories.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users-create.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/footer.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/sqlnew.sql",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/ecommerce.sublime-workspace",
+		"/C/Users/Wellington/Desktop/teste.java",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Page.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users-update.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/header.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views-cache/users-update.ed4c866641a361c6dd1232558ff88217.rtpl.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views-cache/users-create.ed4c866641a361c6dd1232558ff88217.rtpl.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/autoload.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/composer.json",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/header.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/db.sql",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/index.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/res/admin/starter.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/index.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/footer.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/rain/raintpl/example-simple.php",
+		"/C/xampp/php/pear/PHP/Compat/Function/file_put_contents.php",
+		"/C/xampp/php/pear/PHP/Compat/Function/file_get_contents.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/page.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/ecommerce/composer.json",
+		"/C/Users/Wellington/Desktop/Projetos/php/index.php",
+		"/C/xampp/htdocs/ecommerce/index.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/composer/installed.json",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/composer/autoload_classmap.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/hosts",
+		"/C/Users/Wellington/Desktop/Dowloads/100 - Configurando Autoload de Nossas Classes/hcodebr/php-classes/src/DB/Sql.php",
+		"/C/xampp/htdocs/ecommerce/vendor/rain/raintpl/example-simple.php",
+		"/C/xampp/htdocs/ecommerce/views/index.html",
+		"/C/xampp/htdocs/ecommerce/views/header.html",
+		"/C/xampp/htdocs/ecommerce/views/footer.html",
+		"/C/xampp/htdocs/ecommerce/vendor/hcodebr/php-classes/src/Page.php",
+		"/C/xampp/htdocs/ecommerce/hosts",
+		"/C/xampp/htdocs/ecommerce/httpd-vhosts.conf",
+		"/C/xampp/htdocs/tpl/composer.json",
+		"/C/xampp/htdocs/tpl/tpl/index.html",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/index.php",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/C/xampp/htdocs/tpl/index.php",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/vendor/hcodebr/php-classes/src/Page.php",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/composer.json",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/vendor/slim/slim/index.php",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/ConfigurandoProjeto/vendor/rain/raintpl/example-simple.php",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/99 - Configurando o Projeto/httpd-vhosts.conf",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/99 - Configurando o Projeto/hosts",
+		"/C/xampp/htdocs/ecommerce/preparandoabiente/99 - Configurando o Projeto/composer.json",
+		"/C/xampp/htdocs/ecommerce/100 - Configurando Autoload de Nossas Classes/hcodebr/php-classes/src/DB/Sql.php",
+		"/C/xampp/htdocs/seguranca/exemplo-01.php",
+		"/C/xampp/htdocs/sqlserver/exemplo-01.php",
+		"/C/xampp/htdocs/session/config.php",
+		"/C/xampp/htdocs/session/exemplo-02.php",
+		"/C/xampp/htdocs/session/exemplo-03.php",
+		"/C/xampp/htdocs/session/exemplo-01.php",
+		"/C/xampp/htdocs/cloud/diretorios.php",
+		"/C/xampp/htdocs/cloud/testedir.php",
+		"/C/xampp/htdocs/cloud/novo dir/teste.php",
+		"/C/xampp/htdocs/string/exemplo-04.php",
+		"/C/xampp/htdocs/string/exemplo-03.php",
+		"/C/xampp/htdocs/string/exemplo-02.php",
+		"/C/xampp/htdocs/operadores/exemplo-06.php",
+		"/C/xampp/htdocs/operadores/exemplo-05.php",
+		"/C/xampp/htdocs/operadores/exemplo-02.php",
+		"/C/xampp/htdocs/operadores/exemplo-01.php",
+		"/C/xampp/htdocs/variaveis/exemplo-05.php",
+		"/C/xampp/htdocs/variaveis/exemplo-03.php",
+		"/C/xampp/htdocs/variaveis/exemplo-02.php",
+		"/C/xampp/htdocs/variaveis/exemplo-01.php",
+		"/C/Users/Wellington/Desktop/php/index.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getPasswordHash",
+			"getPassswordHash",
+			"$mail",
+			"forgot",
+			"link",
+			"links",
+			"link",
+			"231.00.0.3",
+			"src=",
+			"wellington"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$this->mail"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vendor/hcodebr/php-classes/src/Model/Category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/hcodebr/php-classes/src/Model/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "define command{",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
