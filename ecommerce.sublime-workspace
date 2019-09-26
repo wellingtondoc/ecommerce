@@ -127,41 +127,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "vendor/hcodebr/php-classes/src/Model/Category.php",
-			"settings":
-			{
-				"buffer_size": 304,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vendor/hcodebr/php-classes/src/Model/User.php",
-			"settings":
-			{
-				"buffer_size": 6696,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 3418,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
-			"settings":
-			{
-				"buffer_size": 755,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "define command{"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -197,18 +162,24 @@
 	[
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views"
 	],
 	"file_history":
 	[
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/index.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/categories-menu.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/footer.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Model/Category.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Category.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/index.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-categories.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/category.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/header.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/categories.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/header.html",
+		"/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/index.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/db-ecommerce-2019.sql",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/DB/Sql.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/httpd-vhosts.conf",
@@ -221,7 +192,6 @@
 		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Mailer.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-users.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-categories.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users-create.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/footer.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/sqlnew.sql",
@@ -229,19 +199,15 @@
 		"/C/Users/Wellington/Desktop/teste.java",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Page.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users-update.html",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/header.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views-cache/users-update.ed4c866641a361c6dd1232558ff88217.rtpl.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/users.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views-cache/users-create.ed4c866641a361c6dd1232558ff88217.rtpl.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/autoload.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/composer.json",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/header.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/db.sql",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/PageAdmin.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/index.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/res/admin/starter.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/index.html",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/footer.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/rain/raintpl/example-simple.php",
 		"/C/xampp/php/pear/PHP/Compat/Function/file_put_contents.php",
 		"/C/xampp/php/pear/PHP/Compat/Function/file_get_contents.php",
@@ -312,6 +278,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"categoria",
 			"getPasswordHash",
 			"getPassswordHash",
 			"$mail",
@@ -340,124 +307,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "vendor/hcodebr/php-classes/src/Model/Category.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "vendor/hcodebr/php-classes/src/Model/User.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								749,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "define command{",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -500,7 +351,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -538,7 +389,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 234.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -29,7 +29,7 @@ class Category extends Model {
 
 		$this->setData($results[0]);
 
-		//Category::updateFile();
+		Category::updateFile();
 
 	}
 
@@ -55,7 +55,7 @@ class Category extends Model {
 			':idcategory'=>$this->getidcategory()
 		]);
 
-		//Category::updateFile();
+		Category::updateFile();
 
 	}
 
