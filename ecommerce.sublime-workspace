@@ -162,26 +162,42 @@
 	[
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views"
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/DB",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin"
 	],
 	"file_history":
 	[
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/index.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Product.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/products-create.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/admin-products.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Model/Product.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-products.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/header.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/site.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/admin.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/admin-users.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/admin-categories.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Products.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/header.html",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Category.php",
+		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/category.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/categories-menu.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/footer.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/vendor/hcodebr/php-classes/src/Model/Category.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/Category.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/index.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Feito HCODE/ecommerce-master/admin-categories.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/category.html",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/header.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/categories.html",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Model.php",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/header.html",
 		"/F/NET/Documentos/Nagios/NAGIOS TTE/script/command/html",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/views/admin/index.html",
 		"/F/Cursos Udemy/HCODE/PHP7/Recursos/Banco de dados/db-ecommerce-2019.sql",
-		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/DB/Sql.php",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/httpd-vhosts.conf",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
 		"/F/Cursos Udemy/HCODE/PHP7/Projeto Final/ecommerce/vendor/hcodebr/php-classes/src/Mailer.php",
@@ -278,6 +294,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Product",
 			"categoria",
 			"getPasswordHash",
 			"getPassswordHash",
@@ -374,12 +391,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 668.0
 	},
 	"selected_group": 0,
 	"settings":
