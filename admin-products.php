@@ -70,8 +70,6 @@ $app->post("/admin/products/:idproduct", function($idproduct){
 	$product->setData($_POST);
 	
 	$product->save();
-
-	var_dump($_FILES);
 	
 	$product->setPhoto($_FILES["file"]);
 	

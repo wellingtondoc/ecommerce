@@ -104,13 +104,7 @@ class Product extends Model {
 		$extension = end($extension);
 
 		switch ($extension) {
-			case "jpg":
-			$image = imagecreatefromjpeg($file["tmp_name"]);
-			break;
-
-			case "jpeg":
-			$image = imagecreatefromjpeg($file["tmp_name"]);
-			break;
+			
 			
 			case "gif":
 			$image = imagecreatefromgif($file["tmp_name"]);
@@ -118,6 +112,14 @@ class Product extends Model {
 			
 			case "png":
 			$image = imagecreatefrompng($file["tmp_name"]);
+			break;
+
+			case "jpg":
+			$image = imagecreatefromjpeg($file["tmp_name"]);
+			break;
+
+			case "jpeg":
+			$image = imagecreatefromjpeg($file["tmp_name"]);
 			break;
 
 		}
