@@ -70,6 +70,8 @@ $app->post("/admin/products/:idproduct", function($idproduct){
 	$product->setData($_POST);
 	
 	$product->save();
+
+	var_dump($_FILES);
 	
 	$product->setPhoto($_FILES["file"]);
 	
@@ -77,4 +79,19 @@ $app->post("/admin/products/:idproduct", function($idproduct){
 	exit;
 
 });
+
+$app->get("/admin/products/:idproduct/delete", function($idproduct){
+
+	User::verifyLogin();
+
+	$product = new Product();
+
+	$product->get((int)$idproduct);
+
+	$product->delete();
+
+	header('Location: /admin/products');
+	exit;
+});
+
  ?>
