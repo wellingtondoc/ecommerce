@@ -17,6 +17,19 @@ class Product extends Model {
 
 	}
 
+	public static function checkList($list)
+	{
+
+		foreach ($list as &$row) {
+			$p = new Product();
+			$p->setData($row);
+			$row = $p->getValues();
+		}
+
+		return $list;
+
+	}
+
 
 	public function save()
 	{
@@ -105,6 +118,13 @@ class Product extends Model {
 
 		switch ($extension) {
 			
+			case "jpg":
+			$image = imagecreatefromjpeg($file["tmp_name"]);
+			break;
+
+			case "jpeg":
+			$image = imagecreatefromjpeg($file["tmp_name"]);
+			break;
 			
 			case "gif":
 			$image = imagecreatefromgif($file["tmp_name"]);
@@ -112,14 +132,6 @@ class Product extends Model {
 			
 			case "png":
 			$image = imagecreatefrompng($file["tmp_name"]);
-			break;
-
-			case "jpg":
-			$image = imagecreatefromjpeg($file["tmp_name"]);
-			break;
-
-			case "jpeg":
-			$image = imagecreatefromjpeg($file["tmp_name"]);
 			break;
 
 		}
@@ -136,6 +148,33 @@ class Product extends Model {
 		imagedestroy($image);
 
 		$this->checkPhoto();
+
+	}
+
+
+	public function getFromURL($desurl)
+	{
+		$sql = new Sql();
+
+		$rows = $sql->select("SELECT * FROM tb_products WHERE desurl = :desurl LIMIT 1", [
+			'desurl'=>$desurl
+		]);
+
+		$this->setData($rows[0]);
+	}
+
+
+	public function getCategories()
+	{
+
+		$sql = new Sql();
+
+		return $sql->select("
+			SELECT * FROM tb_categories a INNER JOIN tb_productscategories b ON a.idcategory = b.idcategory WHERE b.idproduct = 
+			:idproduct
+			", [
+				'idproduct'=>$this->getidproduct()
+			]);
 
 	}
 
