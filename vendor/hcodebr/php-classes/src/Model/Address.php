@@ -14,7 +14,7 @@ class Address extends Model {
 
 		$nrcep = str_replace("-", "", $nrcep);
 
-		$ch = curl_init();
+		$ch = curl_init(); //rastrear uma URL
 
 		curl_setopt($ch, CURLOPT_URL, "http://viacep.com.br/ws/$nrcep/json/");
 
