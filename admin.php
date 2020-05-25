@@ -2,19 +2,18 @@
 
 use \Hcode\PageAdmin;
 use \Hcode\Model\User;
-use \Hcode\Model\Category;
 
 $app->get('/admin', function() {
-
-	User::verifyLogin();
     
+	User::verifyLogin();
+
 	$page = new PageAdmin();
 
 	$page->setTpl("index");
 
 });
 
-$app->get('/admin/login', function(){
+$app->get('/admin/login', function() {
 
 	$page = new PageAdmin([
 		"header"=>false,
@@ -25,7 +24,7 @@ $app->get('/admin/login', function(){
 
 });
 
-$app->post('/admin/login', function(){
+$app->post('/admin/login', function() {
 
 	User::login($_POST["login"], $_POST["password"]);
 
@@ -33,7 +32,6 @@ $app->post('/admin/login', function(){
 	exit;
 
 });
-
 
 $app->get('/admin/logout', function() {
 
@@ -45,35 +43,38 @@ $app->get('/admin/logout', function() {
 });
 
 $app->get("/admin/forgot", function() {
-	
+
 	$page = new PageAdmin([
 		"header"=>false,
 		"footer"=>false
 	]);
-	
+
 	$page->setTpl("forgot");	
+
 });
 
 $app->post("/admin/forgot", function(){
-	
+
 	$user = User::getForgot($_POST["email"]);
-	
+
 	header("Location: /admin/forgot/sent");
 	exit;
+
 });
 
 $app->get("/admin/forgot/sent", function(){
-	
+
 	$page = new PageAdmin([
 		"header"=>false,
 		"footer"=>false
 	]);
 
 	$page->setTpl("forgot-sent");	
+
 });
 
 
-$app->get("/admin/forgot/reset", function(){ 
+$app->get("/admin/forgot/reset", function(){
 
 	$user = User::validForgotDecrypt($_GET["code"]);
 
@@ -86,13 +87,14 @@ $app->get("/admin/forgot/reset", function(){
 		"name"=>$user["desperson"],
 		"code"=>$_GET["code"]
 	));
+
 });
 
 $app->post("/admin/forgot/reset", function(){
 
-	$forgot = User::validForgotDecrypt($_POST["code"]);
+	$forgot = User::validForgotDecrypt($_POST["code"]);	
 
-	User::setForgotUsed($forgot["idrecovery"]);
+	User::setFogotUsed($forgot["idrecovery"]);
 
 	$user = new User();
 
@@ -108,20 +110,7 @@ $app->post("/admin/forgot/reset", function(){
 	]);
 
 	$page->setTpl("forgot-reset-success");
+
 });
-
-$app->get("/admin/categories", function(){
-
-	User::verifyLogin();
-
-	$categories = Category::listAll();
-
-	$page = new PageAdmin();
-
-	$page->setTpl("categories", [
-		"categories"=>$categories
-	]);
-});
-
 
  ?>
